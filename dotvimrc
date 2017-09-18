@@ -65,3 +65,8 @@ map #  <Plug>(incsearch-nohl-#)
 map g* <Plug>(incsearch-nohl-g*)
 map g# <Plug>(incsearch-nohl-g#)
 
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
+
+" Minimap
+let g:minimap_highlight='Visual'
