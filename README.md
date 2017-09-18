@@ -26,7 +26,7 @@ Packages
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter) `<\cc>` `<\cu>`
 * [Airline](https://github.com/vim-airline/vim-airline) with [Themes](https://github.com/vim-airline/vim-airline-themes)
 * [todo](https://github.com/Dimercel/todo-vim) `F5`
-* [Incsearch](https://github.com/haya14busa/incsearch)
+* [Incsearch](https://github.com/haya14busa/incsearch.vim)
 * [obsession](https://github.com/tpope/vim-obsession)
 * [Julia-vim](https://github.com/JuliaEditorSupport/julia-vim)
 
@@ -51,7 +51,10 @@ Features
     ```
     cd ~/.vim/bundle
     git submodule add repo-url
-    git add .
+    ```
+    or 
+    ```
+    git submodule add repo-url bundle/pkg-name
     ```
 
 * Solarized toggle background with `F6`
