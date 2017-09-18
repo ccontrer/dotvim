@@ -26,12 +26,12 @@ Packages
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter) `<\cc>` `<\cu>`
 * [Airline](https://github.com/vim-airline/vim-airline) with [Themes](https://github.com/vim-airline/vim-airline-themes)
 * [todo](https://github.com/Dimercel/todo-vim) `F5`
-* [Minimap](https://github.com/severin-lemaignan/vim-minimap) `<\mm>` `<\mc>` `<\mt>`
+* [Minimap](https://github.com/severin-lemaignan/vim-minimap) `<\mm>` `<\mc>` `<\mt>` (requires `vim-nox`)
 * [Incsearch](https://github.com/haya14busa/incsearch.vim)
 * [obsession](https://github.com/tpope/vim-obsession)
 * [Syntastic](https://github.com/scrooloose/syntastic)
 * [Julia-vim](https://github.com/JuliaEditorSupport/julia-vim)
-* [tagbar](https://github.com/majutsushi/tagbar) `F8`. Requires `exuberant-ctags`
+* [tagbar](https://github.com/majutsushi/tagbar) `F8`. (requires `exuberant-ctags`)
 * [Latex-suite](https://github.com/vim-latex/vim-latex)
 * [Fugitive](https://github.com/tpope/vim-fugitive)
 
