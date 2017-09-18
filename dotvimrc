@@ -1,0 +1,67 @@
+execute pathogen#infect()
+
+syntax on
+filetype plugin indent on
+
+" Display line numbers
+set number
+
+" Keys continue to the next/previous lines at end/begining of line
+set whichwrap+=<,>,[,]
+
+" Paste toggle for automatic indentation
+set pastetoggle=<F2>
+
+" Hightlighted search
+" set hlsearch
+
+" 4 spaces width indentation with '>' and <Tab>
+filetype plugin indent on    " required
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set smartindent
+
+" Solarized
+syntax enable
+set background=dark
+colorscheme solarized
+set t_Co=256
+call togglebg#map("<F6>")
+
+"NERDTree
+map <C-n> :NERDTreeToggle<CR> " Maps <C-n> to open NERD
+
+" NERD Commenter
+let g:NERDSpaceDelims = 1
+
+" Airline
+" statuslines appear all the time
+set laststatus=2
+" Automatically displays all buffers when there's only one tab open
+" let g:airline#extensions#tabline#enabled = 1
+" Powerline fonts enabled in terminal
+let g:airline_powerline_fonts = 1
+let g:airline_theme='wombat'
+" if !exists('g:airline_symbols')
+    " let g:airline_symbols = {}
+" endif
+
+" Todo toogle
+map <F5> :TODOToggle<CR>
+
+" Incsearch
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+" :h g:incsearch#auto_nohlsearch
+" set hlsearch
+let g:incsearch#auto_nohlsearch = 1
+map n  <Plug>(incsearch-nohl-n)
+map N  <Plug>(incsearch-nohl-N)
+map *  <Plug>(incsearch-nohl-*)
+map #  <Plug>(incsearch-nohl-#)
+map g* <Plug>(incsearch-nohl-g*)
+map g# <Plug>(incsearch-nohl-g#)
+
