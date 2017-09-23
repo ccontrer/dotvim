@@ -40,3 +40,6 @@
 [submodule "bundle/vim-minimap"]
 	path = bundle/vim-minimap
 	url = https://github.com/severin-lemaignan/vim-minimap.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git

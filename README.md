@@ -24,6 +24,7 @@ Packages
 * [Solarized](https://github.com/altercation/vim-colors-solarized)
 * [NERDTree](https://github.com/scrooloose/nerdtree) `<C-n>`
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter) `<\cc>` `<\cu>`
+* [Ctrl-P](https://github.com/ctrlpvim/ctrlp.vim)
 * [Airline](https://github.com/vim-airline/vim-airline) with [Themes](https://github.com/vim-airline/vim-airline-themes)
 * [todo](https://github.com/Dimercel/todo-vim) `F5`
 * [Minimap](https://github.com/severin-lemaignan/vim-minimap) `<\mm>` `<\mc>` `<\mt>` (requires `vim-nox`)
@@ -39,7 +40,6 @@ Previously included packages
 ----------------------------
 
 * [L9](http://www.vim.org/scripts/script.php?script_id=3252)
-* [Ctrl-P](https://github.com/kien/ctrlp.vim)
 * [Vundle](https://github.com/VundleVim/Vundle.vim)
 * [sparkup](https://github.com/rstacruz/sparkup)
 
@@ -64,6 +64,9 @@ Features
 * Four (4) tab spaces
 
 ### Links
+
+* [Astrails dotvim](https://github.com/astrails/dotvim)
+* [Bling dotvim](https://github.com/bling/dotvim)
 
 #### Markdown
 

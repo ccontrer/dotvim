@@ -40,7 +40,7 @@ let g:NERDSpaceDelims = 1
 " statuslines appear all the time
 set laststatus=2
 " Automatically displays all buffers when there's only one tab open
-" let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 1
 " Powerline fonts enabled in terminal
 let g:airline_powerline_fonts = 1
 let g:airline_theme='wombat'
@@ -56,7 +56,7 @@ map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
 map g/ <Plug>(incsearch-stay)
 " :h g:incsearch#auto_nohlsearch
-" set hlsearch
+set hlsearch
 let g:incsearch#auto_nohlsearch = 1
 map n  <Plug>(incsearch-nohl-n)
 map N  <Plug>(incsearch-nohl-N)
