@@ -32,8 +32,9 @@ Packages
 * [obsession](https://github.com/tpope/vim-obsession)
 * [Syntastic](https://github.com/scrooloose/syntastic)
 * [Julia-vim](https://github.com/JuliaEditorSupport/julia-vim)
-* [tagbar](https://github.com/majutsushi/tagbar) `F8` (requires `exuberant-ctags`)
+* [Python-mode](https://github.com/python-mode/python-mode)
 * [Latex-suite](https://github.com/vim-latex/vim-latex)
+* [tagbar](https://github.com/majutsushi/tagbar) `F8` (requires `exuberant-ctags`)
 * [Fugitive](https://github.com/tpope/vim-fugitive)
 
 Previously included packages

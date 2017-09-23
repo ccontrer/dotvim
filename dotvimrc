@@ -12,6 +12,14 @@ set whichwrap+=<,>,[,]
 " Paste toggle for automatic indentation
 set pastetoggle=<F2>
 
+" Mouse
+set mouse=a
+
+" Disable backup and swap files
+set nobackup
+set nowritebackup
+set noswapfile
+
 " Hightlighted search
 " set hlsearch
 
@@ -70,3 +78,8 @@ nmap <F8> :TagbarToggle<CR>
 
 " Minimap
 let g:minimap_highlight='Visual'
+
+"" Language specific config
+
+" Pymode
+let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'
