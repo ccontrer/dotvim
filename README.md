@@ -36,6 +36,7 @@ Packages
 * [Latex-suite](https://github.com/vim-latex/vim-latex)
 * [tagbar](https://github.com/majutsushi/tagbar) `F8` (requires `exuberant-ctags`)
 * [Fugitive](https://github.com/tpope/vim-fugitive)
+* [FastFold](https://github.com/Konfekt/FastFold) (solves folding lagging)
 
 Previously included packages
 ----------------------------
