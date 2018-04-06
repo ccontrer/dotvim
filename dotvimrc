@@ -110,3 +110,6 @@ let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'
 
 " Vim-LaTeXx suite
 let g:Tex_DefaultTargetFormat='pdf'
+let g:pymode_lint = 0
+let g:pymode_rope = 0
+let g:pymode_folding = 1
