@@ -64,6 +64,7 @@ Features
 * Paste node `F2`
 * Cursor movement continues to next/previous line
 * Four (4) tab spaces
+* Arrow keys move as normal on wrap mode, and `j` and `k` on visual mode only
 
 ### Links
 
