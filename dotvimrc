@@ -31,6 +31,30 @@ set expandtab
 set autoindent
 set smartindent
 
+" Key re-mapping
+noremap <Leader>s :update<CR>
+
+" Mapping cursor movement for wrapping mode. Only arrow keys and jk in visual
+" mode
+noremap  <buffer> <silent> <Up> g<Up>
+noremap  <buffer> <silent> <Down> g<Down>
+noremap  <buffer> <silent> <Home> g<Home>
+noremap  <buffer> <silent> <End> g<End>
+nnoremap  <buffer> <silent> <Up> g<Up>
+nnoremap  <buffer> <silent> <Down> g<Down>
+nnoremap  <buffer> <silent> <Home> g<Home>
+nnoremap  <buffer> <silent> <End> g<End>
+vnoremap  <buffer> <silent> k gk
+vnoremap  <buffer> <silent> j gj
+vnoremap  <buffer> <silent> <Up> g<Up>
+vnoremap  <buffer> <silent> <Down> g<Down>
+vnoremap  <buffer> <silent> <Home> g<Home>
+vnoremap  <buffer> <silent> <End> g<End>
+inoremap  <buffer> <silent> <Up> <C-o>g<Up>
+inoremap  <buffer> <silent> <Down> <C-o>g<Down>
+inoremap  <buffer> <silent> <Home> <C-o>g<Home>
+inoremap  <buffer> <silent> <End> <C-o>g<End>
+
 " Solarized
 syntax enable
 set background=dark
@@ -83,3 +107,6 @@ let g:minimap_highlight='Visual'
 
 " Pymode
 let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'
+
+" Vim-LaTeXx suite
+let g:Tex_DefaultTargetFormat='pdf'
