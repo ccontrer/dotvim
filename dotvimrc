@@ -113,3 +113,9 @@ let g:Tex_DefaultTargetFormat='pdf'
 let g:pymode_lint = 0
 let g:pymode_rope = 0
 let g:pymode_folding = 1
+
+" Lily pond sintax
+filetype off
+set runtimepath+=/usr/share/lilypond/2.18.2/vim/
+filetype on
+syntax on

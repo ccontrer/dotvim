@@ -37,6 +37,7 @@ Packages
 * [tagbar](https://github.com/majutsushi/tagbar) `F8` (requires `exuberant-ctags`)
 * [Fugitive](https://github.com/tpope/vim-fugitive)
 * [FastFold](https://github.com/Konfekt/FastFold) (solves folding lagging)
+* [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator) `<C-h>` `<C-j>` `<C-k>` `<C-l>` for combined Vim-Tmux navigation 
 
 Previously included packages
 ----------------------------
