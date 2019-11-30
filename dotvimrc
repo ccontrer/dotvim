@@ -119,3 +119,6 @@ filetype off
 set runtimepath+=/usr/share/lilypond/2.18.2/vim/
 filetype on
 syntax on
+
+" fzf
+set rtp+=~/.fzf
