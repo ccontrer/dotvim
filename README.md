@@ -67,6 +67,9 @@ Features
 * Four (4) tab spaces
 * Arrow keys move as normal on wrap mode, and `j` and `k` on visual mode only
 
+Other
+-----
+
 ### Links
 
 * [Astrails dotvim](https://github.com/astrails/dotvim)
